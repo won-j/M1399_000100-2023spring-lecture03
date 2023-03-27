@@ -1,9 +1,6 @@
 FROM jupyter/datascience-notebook
 
-## install imagemagick
 USER root
-
-RUN conda install -c conda-forge imagemagick
 
 ENV SHELL=/bin/bash
 
